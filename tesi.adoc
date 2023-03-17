@@ -1,0 +1,78 @@
+
+= Titolo Tesi
+:doctype: book
+:media: prepress
+:sectnums:
+:lang: it
+:listing-caption: Tavola
+:toc-title: Indice dei Contenuti
+Author Name
+:title-page:
+:toc: macro
+
+[discrete]
+== Abstract
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+Suspendisse iaculis quis erat vitae accumsan. Integer ut mauris lacus. Donec fringilla at metus sit amet pulvinar. In aliquet vehicula nunc, in rutrum massa luctus vel. Fusce id varius nibh, quis bibendum risus. Donec porttitor, felis vel consequat consequat, tellus velit fermentum risus, vel egestas elit justo vitae dui. Morbi pulvinar lacus non risus pulvinar luctus. Curabitur et leo in velit ornare convallis. Donec pellentesque eleifend enim. Aliquam pretium, purus in posuere maximus, purus turpis tempor felis, ac eleifend libero elit eget nisl. Cras sem dui, placerat quis tempus sit amet, convallis at nulla. Suspendisse gravida cursus nunc, vel fringilla orci sagittis sed. Duis tempus, lorem vel bibendum varius, purus nisl iaculis justo, eget faucibus quam eros a nisi. Nulla sed justo eleifend elit scelerisque feugiat suscipit in mi. Aliquam a feugiat enim.
+
+<<<
+
+[discrete]
+== Dedica
+
+Suspendisse iaculis quis erat vitae accumsan. Integer ut mauris lacus. Donec fringilla at metus sit amet pulvinar. In aliquet vehicula nunc, in rutrum massa luctus vel. Fusce id varius nibh, quis bibendum risus. Donec porttitor, felis vel consequat consequat, tellus velit fermentum risus, vel egestas elit justo vitae dui. Morbi pulvinar lacus non risus pulvinar luctus. Curabitur et leo in velit ornare convallis. Donec pellentesque eleifend enim. Aliquam pretium, purus in posuere maximus, purus turpis tempor felis, ac eleifend libero elit eget nisl. Cras sem dui, placerat quis tempus sit amet, convallis at nulla. Suspendisse gravida cursus nunc, vel fringilla orci sagittis sed. Duis tempus, lorem vel bibendum varius, purus nisl iaculis justo, eget faucibus quam eros a nisi. Nulla sed justo eleifend elit scelerisque feugiat suscipit in mi. Aliquam a feugiat enim.
+
+// Questo è l'indice dei contenuti
+toc::[]
+
+== Sezione
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+Suspendisse iaculis quis erat vitae accumsan. Integer ut mauris lacus. Donec fringilla at metus sit amet pulvinar. In aliquet vehicula nunc, in rutrum massa luctus vel. Fusce id varius nibh, quis bibendum risus. Donec porttitor, felis vel consequat consequat, tellus velit fermentum risus, vel egestas elit justo vitae dui. Morbi pulvinar lacus non risus pulvinar luctus. Curabitur et leo in velit ornare convallis. Donec pellentesque eleifend enim. Aliquam pretium, purus in posuere maximus, purus turpis tempor felis, ac eleifend libero elit eget nisl. Cras sem dui, placerat quis tempus sit amet, convallis at nulla. Suspendisse gravida cursus nunc, vel fringilla orci sagittis sed. Duis tempus, lorem vel bibendum varius, purus nisl iaculis justo, eget faucibus quam eros a nisi. Nulla sed justo eleifend elit scelerisque feugiat suscipit in mi. Aliquam a feugiat enim.
+
+Sed felis lorem, tristique eu orci eu, efficitur pulvinar elit. Duis nec consectetur felis. Proin ac ipsum lobortis, sollicitudin diam id, aliquam mi. Sed et semper enim. Aliquam libero elit, faucibus scelerisque mi at, eleifend bibendum dui. Morbi consectetur orci ut purus ornare, eu ullamcorper dui feugiat. Quisque non egestas ipsum. Cras lobortis venenatis lorem eget commodo.
+
+Proin et lectus et velit aliquet efficitur eu quis quam. Aliquam erat volutpat. In pharetra tellus quis tellus venenatis elementum. Sed consequat egestas libero, egestas imperdiet risus consectetur id. Proin eget egestas lacus. Morbi id arcu malesuada, aliquet augue ut, commodo erat. Fusce est enim, varius a augue a, maximus sagittis dolor. Vestibulum congue cursus diam vitae ultricies. Pellentesque non metus nibh. Nullam at suscipit eros, ut interdum purus. Suspendisse congue magna eget commodo dignissim. Maecenas lacinia dolor magna, ac tempor eros fringilla ut. Sed porttitor placerat ex, eu lobortis enim convallis eget.
+
+Sed lobortis sit amet sapien ut finibus. Ut id auctor augue. Pellentesque justo tortor, volutpat id dui sit amet, vulputate posuere sapien. Morbi imperdiet fringilla odio vitae auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ac hendrerit turpis. Sed quam elit, facilisis in convallis at, tempus ut libero. Integer nec iaculis tortor. Nulla elementum viverra viverra. Praesent id suscipit lacus. Nunc lacinia cursus dolor, lobortis ullamcorper odio euismod id.
+
+=== Sottosezione
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+==== Sottosezione media
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+===== Sottosezione piccola
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+===== Sottosezione microscopica
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+.Esempio di codice in C++
+[source,c++]
+----
+#include <iostream>
+using namespace std;
+int main(int argc, char * argv[]) {
+	return EXIT_SUCCESS;
+}
+----
+
+== Conclusioni
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+== Appendice
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+== Bibliografia
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
