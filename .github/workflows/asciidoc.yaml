@@ -19,14 +19,14 @@ jobs:
     name: Build
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout
       - name: Get build container
         id: adocbuild
         uses: tonynv/asciidoctor-action@master
         with:
           program: "asciidoctor --backend=html5 -o index.html tesi.adoc"
       - name: Generate build artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact
         with:
           name: build
           path: index.html
@@ -40,16 +40,16 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout
       - name: Download static site artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact
         with:
           name: build
           path: site
       - name: Setup Pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact
         with:
           path: site
       - name: Deploy to GitHub Pages
