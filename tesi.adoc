@@ -6,6 +6,8 @@
 :lang: it
 :listing-caption: Tavola
 :toc-title: Indice dei Contenuti
+:!chapter-signifier:
+:!part-signifier:
 Author Name
 :title-page:
 :toc: macro
