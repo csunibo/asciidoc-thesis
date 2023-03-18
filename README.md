@@ -12,7 +12,7 @@ profilo: basta cliccare su "Use this template" in alto a destra.
 - [ruby](https://www.ruby-lang.org/en/) versione `v2.7` o superiore.
 - [Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/)
 
-Si consiglia l'installazione di un'estensione per il vostro code editor che supporti **asciidoc**.
+Si consiglia l'installazione di un'estensione code editor che supporti **asciidoc**.
 
 ## Come Iniziare?
 
@@ -24,17 +24,17 @@ asciidoctor-pdf --theme unibo.yml -a pdf-fontsdir=fonts tesi.adoc
 
 ## CI/CD
 
-Cliccando su "Actions" in alto, potrai abilitare l'automatizzazione del tuo
-progetto:
+Cliccando su **Actions** in alto, potrai abilitare l'automatizzazione del progetto:
 
-- ogni volta che farai _push_ su una PR diretta verso `main`, verrà controllato
+- Per ogni **push** su una PR diretta verso <kbd>main</kbd>, verrà controllato
   che la tua tesi compili correttamente;
-- se avrai impostato "Github Actions" come
-  "Settings"/"Pages"/"Build and depolyment"/"Source", a ogni modifica su `main`
-  la tua tesi verrà pubblicata su `https://<nome-utente>.github.io/<nome-repository/tesi.pdf`.
+- Se avrai impostato **Github Actions** come
+  `Settings` → `Pages` → `Build and depolyment` → `Source`, a ogni modifica su <kbd>main</kbd>
+  la tua tesi verrà pubblicata su `https://<nome-utente>.github.io/<nome-repository>/tesi.pdf`.
 
 Ricorda che se modifichi nome e percorso di `tesi.adoc` o `unibo.yml`, dovrai
-modificare le tue _Actions_ di conseguenza.
+modificare le tue **Actions** di conseguenza. Le estensioni non possono
+essere modificate altrimenti *Asciidoctor* non riconosce più i file.
 
 ## Personalizzazione
 
@@ -43,7 +43,9 @@ modificare le tue _Actions_ di conseguenza.
 **Asciidoctor PDF** è il software che produrrà il `.pdf`, e puoi trovare qui la
 [documentazione](https://docs.asciidoctor.org/pdf-converter/latest/) per l'impaginazione.
 
-> 🚸 _Fai attenzione a modificare il file `unibo.yml`; l'indentazione è importantissima (2 spazi)._
+> 🚸 Fai attenzione a modificare il file `unibo.yml`:\
+> L'indentazione è importantissima (2 spazi).\
+> **È vietato modificare l'estensione del file `unibo.yml`.**
 
 ### Files
 
