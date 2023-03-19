@@ -3,7 +3,8 @@
 Un punto di partenza per la scrittura di una tesi in AsciiDoc aderente alle
 https://github.com/csunibo/asciidoc-thesis/issues/2#issuecomment-1470158684[specifiche del DISI].
 
-Puoi usare questo progetto come modello per una nuova _repository_ sul tuo profilo: basta cliccare su "Use this template" in alto a destra.
+Puoi usare questo progetto come modello per una nuova _repository_ sul tuo
+profilo: basta cliccare su "Use this template" in alto a destra.
 
 WARNING: Il progetto è al momento in fase di sviluppo.
 
@@ -40,12 +41,14 @@ essere modificate altrimenti *Asciidoctor* non riconosce più i file.
 == Personalizzazione
 
 **Asciidoc** è il linguaggio che dovrai utilizzare, e puoi trovare qui la
-https://docs.asciidoctor.org/asciidoc/latest/[documentazione].\
-**Asciidoctor PDF** è il software che produrrà il `.pdf`, e puoi trovare qui la
-https://docs.asciidoctor.org/pdf-converter/latest/[documentazione] per l'impaginazione.
+https://docs.asciidoctor.org/asciidoc/latest/[documentazione].
 
-> 🚸 Fai attenzione a modificare il file `unibo.yml`:\
-> L'indentazione è importantissima (2 spazi).\
+**Asciidoctor PDF** è il software che produrrà il `.pdf`, e puoi trovare qui la
+https://docs.asciidoctor.org/pdf-converter/latest/[documentazione] per
+l'impaginazione.
+
+> 🚸 Fai attenzione a modificare il file `unibo.yml`:
+> L'indentazione è importantissima (2 spazi).
 > **È vietato modificare l'estensione del file `unibo.yml`.**
 
 === Files
