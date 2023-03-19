@@ -1,14 +1,16 @@
 
 = Titolo Tesi
+:pdf-theme: unibo.yml
 :doctype: book
 :media: prepress
 :sectnums:
-:source-highlighter: rouge
 :lang: it
 :listing-caption: Tavola
 :toc-title: Indice dei Contenuti
 :!chapter-signifier:
 :!part-signifier:
+:appendix-caption: Appendice
+:source-highlighter: rouge
 Author Name
 :title-page:
 :toc: macro
@@ -33,6 +35,36 @@ toc::[]
 == Sezione
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+
+Esempi di liste:
+
+1. Questa è una lista numerata esplicitamente
+2. Questa è una lista numerata esplicitamente
+
+//-
+
+. Questa è una lista numerata implicitamente
+. Questa è una lista numerata implicitamente
+
+//-
+
+[square]
+* Questa è una lista generica con quadrati
+* Questa è una lista generica con quadrati
+
+//-
+
+[circle]
+* Questa è una lista generica con cerchi
+* Questa è una lista generica con cerchi
+
+//-
+
+[disc]
+* Questa è una lista generica con simbolo
+* Questa è una lista generica con simbolo
+
+//-
 
 Suspendisse iaculis quis erat vitae accumsan. Integer ut mauris lacus. Donec fringilla at metus sit amet pulvinar. In aliquet vehicula nunc, in rutrum massa luctus vel. Fusce id varius nibh, quis bibendum risus. Donec porttitor, felis vel consequat consequat, tellus velit fermentum risus, vel egestas elit justo vitae dui. Morbi pulvinar lacus non risus pulvinar luctus. Curabitur et leo in velit ornare convallis. Donec pellentesque eleifend enim. Aliquam pretium, purus in posuere maximus, purus turpis tempor felis, ac eleifend libero elit eget nisl. Cras sem dui, placerat quis tempus sit amet, convallis at nulla. Suspendisse gravida cursus nunc, vel fringilla orci sagittis sed. Duis tempus, lorem vel bibendum varius, purus nisl iaculis justo, eget faucibus quam eros a nisi. Nulla sed justo eleifend elit scelerisque feugiat suscipit in mi. Aliquam a feugiat enim.
 
@@ -62,9 +94,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicul
 [source,c++,highlight=2]
 ----
 #include <iostream>
-#include <cstdlib>
-using namespace std;
 int main(int argc, char * argv[]) {
+	std::cout << "Hello, world!" << std::endl;
 	return EXIT_SUCCESS; <1>
 }
 ----
@@ -74,10 +105,12 @@ int main(int argc, char * argv[]) {
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
 
-== Appendice
+[appendix]
+== Cose dell'appendice
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus <<t36>>. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
 
+[bibliography]
 == Bibliografia
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
+include::bibliografia.adoc[]

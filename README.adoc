@@ -4,7 +4,7 @@ Un punto di partenza per la scrittura di una tesi in AsciiDoc aderente alle
 https://github.com/csunibo/asciidoc-thesis/issues/2#issuecomment-1470158684[specifiche del DISI].
 
 Puoi usare questo progetto come modello per una nuova _repository_ sul tuo
-profilo: basta cliccare su "Use this template" in alto a destra.
+profilo: basta cliccare su _"Use this template"_ in alto a destra.
 
 WARNING: Il progetto è al momento in fase di sviluppo.
 
@@ -13,7 +13,7 @@ WARNING: Il progetto è al momento in fase di sviluppo.
 - https://www.ruby-lang.org/en/[ruby] versione `v2.7` o superiore.
 - https://docs.asciidoctor.org/pdf-converter/latest/install/[Asciidoctor PDF]
 
-Si consiglia l'installazione di un'estensione code editor che supporti **asciidoc**.
+Si consiglia l'installazione di un'estensione code editor che supporti *asciidoc*.
 
 == Come Iniziare?
 
@@ -21,37 +21,35 @@ Per compilare il file di esempio `tesi.adoc` utilizzare il comando:
 
 [source,bash]
 ----
-asciidoctor-pdf --theme unibo.yml -a pdf-fontsdir=fonts tesi.adoc
+asciidoctor-pdf -a pdf-fontsdir=fonts tesi.adoc
 ----
 
 == CI/CD
 
-Cliccando su **Actions** in alto, potrai abilitare l'automatizzazione del progetto:
+Cliccando su *Actions* in alto, potrai abilitare l'automatizzazione del progetto:
 
-- Per ogni **push** su una PR diretta verso <kbd>main</kbd>, verrà controllato
+- Per ogni *push* su una PR diretta verso `main`, verrà controllato
   che la tua tesi compili correttamente;
-- Se avrai impostato **Github Actions** come
-  `Settings` → `Pages` → `Build and depolyment` → `Source`, a ogni modifica su <kbd>main</kbd>
+- Se avrai impostato *Github Actions* come
+  `Settings` → `Pages` → `Build and depolyment` → `Source`, a ogni modifica su `main`
   la tua tesi verrà pubblicata su `https://<nome-utente>.github.io/<nome-repository>/tesi.pdf`.
 
 Ricorda che se modifichi nome e percorso di `tesi.adoc` o `unibo.yml`, dovrai
-modificare le tue **Actions** di conseguenza. Le estensioni non possono
+modificare le tue *Actions* di conseguenza. Le estensioni non possono
 essere modificate altrimenti *Asciidoctor* non riconosce più i file.
 
 == Personalizzazione
 
-**Asciidoc** è il linguaggio che dovrai utilizzare, e puoi trovare qui la
+*Asciidoc* è il linguaggio che dovrai utilizzare, e puoi trovare qui la
 https://docs.asciidoctor.org/asciidoc/latest/[documentazione].
 
-**Asciidoctor PDF** è il software che produrrà il `.pdf`, e puoi trovare qui la
+*Asciidoctor PDF* è il software che produrrà il `.pdf`, e puoi trovare qui la
 https://docs.asciidoctor.org/pdf-converter/latest/[documentazione] per
 l'impaginazione.
 
-> 🚸 Fai attenzione a modificare il file `unibo.yml`.
->
-> L'indentazione è importantissima (2 spazi).
->
-> **È vietato modificare l'estensione del file `unibo.yml`.**
+WARNING: Fai attenzione a modificare il file `unibo.yml`. +
+  L'indentazione è importantissima (2 spazi). +
+  *È vietato modificare l'estensione del file `unibo.yml`.*
 
 === Files
 
@@ -60,6 +58,38 @@ l'impaginazione.
 === Decoratori
 
 === Liste
+
+La documentazione ufficiale per la struttura e lo stile:
+
+* https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/[Liste Generiche]
+* https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/[Liste Ordinate]
+* https://docs.asciidoctor.org/pdf-converter/latest/theme/list/[Stile]
+
+Offriamo diversi stili per le liste:
+
+`•` con il tipo `[circle]` +
+`■` con il tipo `[square]` +
+`❉` con il tipo `[disc]`
+
+Esempio di lista generica:
+
+``` adoc
+[circle]
+* Protons
+* Electrons
+* Neutrons
+```
+
+Esempio di lista ordinata:
+
+``` adoc
+1. Protons
+2. Electrons
+3. Neutrons
+```
+
+Se usi `.` al posto dei numeri nella lista ordinata, i numeri
+verrano inseriti automaticamente.
 
 === Immagini
 
@@ -72,6 +102,13 @@ l'impaginazione.
 === Syntax Highlighting
 
 === Bibliografia
+
+La bibliografia si trova nel file `bibliografia.adoc`.
+Non è altro che una lista generica di elementi che cominciano
+per `* [[[segnaposto,Testo del segnaposto]]]`. +
+Il `segnaposto` prima della virgola è un codice che si può
+utilizzare nel testo come referenza, il testo del segnaposto è
+il testo che appare al posto del codice.
 
 === Numeri di Pagina
 
@@ -92,6 +129,6 @@ footer:
       content: "{page-number}"
 ----
 
-## Risorse Esterne
+== Risorse Esterne
 
 Il font `Computer Modern` è rilasciato in licenza SIL Open Font License.

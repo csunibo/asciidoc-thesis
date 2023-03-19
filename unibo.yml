@@ -11,10 +11,22 @@ page:
     start-at: after-toc
 
 role:
+  separate:
+    margin-inner: 20
+    margin-bottom: 20
+    list-item-spacing: 50
+  link:
+    font-color: #0000FF
   removed:
     font-style: italic
     text-decoration: line-through
     text-decoration-color: #FF0000
+
+bibliography:
+  font-color: #0000FF
+
+link:
+  font-color: #0000FF
 
 title-page:
   align: center
@@ -32,10 +44,10 @@ title-page:
 toc:
   hanging-indent: 5
   numbered: true
-  toc-font-size: 16
+  toc-font-size: 17
   toc-font-color: #000000
   indent: 30
-  line-height: 1.8
+  line-height: 2.2
   h2-font-style: bold
   h2-margin-top: 30
 
@@ -48,6 +60,7 @@ base:
 
 prose:
   margin-inner: 12
+  margin-bottom: 12
 
 footnotes:
   font-size: 10
@@ -79,17 +92,17 @@ heading:
   h6-margin-bottom: 16
   h6-font-size: 16
 
-
-link:
-  font-color: #0000FF
 list:
   indent: 30
+  item-spacing: 2
 ulist:
   marker:
-    disc:
-      content: "\uf140"
+    circle:
+      content: "\u2022"
     square:
-      content: "\uf0c8"
+      content: "\ue000"
+    disc:
+      content: "\u203b"
 
 font:
   catalog:
