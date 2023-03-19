@@ -1,0 +1,8 @@
+
+* [[[t36,Turing, 1936]]] Turing, A. (1936). +
+  _ON COMPUTABLE NUMBERS, WITH AN APPLICATION TO THE ENTSCHEIDUNGSPROBLEM._ +
+  *_Proceedings of the London Mathematical Society._*
+
+* [[[r48,Robinson, 1948]]] Robinson, R. (1948). +
+  _Recursion and Double Recursion._ +
+  Bulletin of the American Mathematical Society.
