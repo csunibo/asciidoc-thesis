@@ -47,8 +47,10 @@ https://docs.asciidoctor.org/asciidoc/latest/[documentazione].
 https://docs.asciidoctor.org/pdf-converter/latest/[documentazione] per
 l'impaginazione.
 
-> 🚸 Fai attenzione a modificare il file `unibo.yml`:
+> 🚸 Fai attenzione a modificare il file `unibo.yml`.
+>
 > L'indentazione è importantissima (2 spazi).
+>
 > **È vietato modificare l'estensione del file `unibo.yml`.**
 
 === Files
