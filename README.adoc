@@ -1,28 +1,29 @@
-# Tesi in AsciiDoc
+= Tesi in AsciiDoc
 
 Un punto di partenza per la scrittura di una tesi in AsciiDoc aderente alle
-[specifiche del DISI](https://github.com/csunibo/asciidoc-thesis/issues/2#issuecomment-1470158684).
-Puoi usare questo progetto come modello per una nuova _repository_ sul tuo
-profilo: basta cliccare su "Use this template" in alto a destra.
+https://github.com/csunibo/asciidoc-thesis/issues/2#issuecomment-1470158684[specifiche del DISI].
 
-> 🚸 **ATTENZIONE!!!**: Il progetto è al momento in fase di sviluppo.
+Puoi usare questo progetto come modello per una nuova _repository_ sul tuo profilo: basta cliccare su "Use this template" in alto a destra.
 
-## Prerequisiti
+WARNING: Il progetto è al momento in fase di sviluppo.
 
-- [ruby](https://www.ruby-lang.org/en/) versione `v2.7` o superiore.
-- [Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/)
+== Prerequisiti
+
+- https://www.ruby-lang.org/en/[ruby] versione `v2.7` o superiore.
+- https://docs.asciidoctor.org/pdf-converter/latest/install/[Asciidoctor PDF]
 
 Si consiglia l'installazione di un'estensione code editor che supporti **asciidoc**.
 
-## Come Iniziare?
+== Come Iniziare?
 
 Per compilare il file di esempio `tesi.adoc` utilizzare il comando:
 
-```bash
+[source,bash]
+----
 asciidoctor-pdf --theme unibo.yml -a pdf-fontsdir=fonts tesi.adoc
-```
+----
 
-## CI/CD
+== CI/CD
 
 Cliccando su **Actions** in alto, potrai abilitare l'automatizzazione del progetto:
 
@@ -36,45 +37,46 @@ Ricorda che se modifichi nome e percorso di `tesi.adoc` o `unibo.yml`, dovrai
 modificare le tue **Actions** di conseguenza. Le estensioni non possono
 essere modificate altrimenti *Asciidoctor* non riconosce più i file.
 
-## Personalizzazione
+== Personalizzazione
 
 **Asciidoc** è il linguaggio che dovrai utilizzare, e puoi trovare qui la
-[documentazione](https://docs.asciidoctor.org/asciidoc/latest/).\
+https://docs.asciidoctor.org/asciidoc/latest/[documentazione].\
 **Asciidoctor PDF** è il software che produrrà il `.pdf`, e puoi trovare qui la
-[documentazione](https://docs.asciidoctor.org/pdf-converter/latest/) per l'impaginazione.
+https://docs.asciidoctor.org/pdf-converter/latest/[documentazione] per l'impaginazione.
 
 > 🚸 Fai attenzione a modificare il file `unibo.yml`:\
 > L'indentazione è importantissima (2 spazi).\
 > **È vietato modificare l'estensione del file `unibo.yml`.**
 
-### Files
+=== Files
 
-### Sezioni
+=== Sezioni
 
-### Decoratori
+=== Decoratori
 
-### Liste
+=== Liste
 
-### Immagini
+=== Immagini
 
-### Tabelle
+=== Tabelle
 
-### Math Mode
+=== Math Mode
 
-### Grafici
+=== Grafici
 
-### Syntax Highlighting
+=== Syntax Highlighting
 
-### Bibliografia
+=== Bibliografia
 
-### Numeri di Pagina
+=== Numeri di Pagina
 
 La sezione `footer` nel file `unibo.yml` controlla i
-[numeri di pagina](https://docs.asciidoctor.org/pdf-converter/latest/theme/page-numbers/)
+https://docs.asciidoctor.org/pdf-converter/latest/theme/page-numbers/[numeri di pagina]
 che sono pre-impostati al centro. Per impostarli sul lato esterno
 alla rilegatura, sostituisci tutta la sezione `footer` con questa:
 
-```yaml
+[source,yaml]
+----
 footer:
   height: 100
   recto:
@@ -83,7 +85,7 @@ footer:
   verso:
     left:
       content: "{page-number}"
-```
+----
 
 ## Risorse Esterne
 

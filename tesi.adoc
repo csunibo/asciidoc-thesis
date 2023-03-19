@@ -3,6 +3,7 @@
 :doctype: book
 :media: prepress
 :sectnums:
+:source-highlighter: rouge
 :lang: it
 :listing-caption: Tavola
 :toc-title: Indice dei Contenuti
@@ -58,14 +59,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicul
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia vehicula pretium. Phasellus volutpat ex magna, rutrum faucibus nibh rhoncus vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel metus rhoncus dui euismod malesuada. Suspendisse potenti. Phasellus ultricies bibendum lectus, nec suscipit nisi scelerisque et. Aliquam lorem sapien, venenatis vitae nulla nec, posuere finibus orci. Fusce mauris eros, blandit at volutpat id, sollicitudin vel odio. Praesent massa risus, eleifend eget urna in, pharetra ultrices tellus. Sed maximus consectetur velit non dictum. Aliquam sit amet enim ut nisl molestie cursus.
 
 .Esempio di codice in C++
-[source,c++]
+[source,c++,highlight=2]
 ----
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 int main(int argc, char * argv[]) {
-	return EXIT_SUCCESS;
+	return EXIT_SUCCESS; <1>
 }
 ----
+<1> Ritorna 0
 
 == Conclusioni
 
