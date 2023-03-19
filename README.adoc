@@ -60,14 +60,15 @@ WARNING: Fai attenzione a modificare il file `unibo.yml`. +
 === Liste
 
 La documentazione ufficiale per la struttura e lo stile:
-* [Liste Generiche](https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/)
-* [Liste Ordinate](https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/)
-* [Stile](https://docs.asciidoctor.org/pdf-converter/latest/theme/list/)
+
+* https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/[Liste Generiche]
+* https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/[Liste Ordinate]
+* https://docs.asciidoctor.org/pdf-converter/latest/theme/list/[Stile]
 
 Offriamo diversi stili per le liste:
 
-`•` con il tipo `[circle]`\
-`■` con il tipo `[square]`\
+`•` con il tipo `[circle]` +
+`■` con il tipo `[square]` +
 `❉` con il tipo `[disc]`
 
 Esempio di lista generica:
@@ -104,7 +105,7 @@ verrano inseriti automaticamente.
 
 La bibliografia si trova nel file `bibliografia.adoc`.
 Non è altro che una lista generica di elementi che cominciano
-per `* [[[segnaposto,Testo del segnaposto]]]`.\
+per `* [[[segnaposto,Testo del segnaposto]]]`. +
 Il `segnaposto` prima della virgola è un codice che si può
 utilizzare nel testo come referenza, il testo del segnaposto è
 il testo che appare al posto del codice.
