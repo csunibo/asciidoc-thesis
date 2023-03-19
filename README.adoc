@@ -57,7 +57,7 @@ WARNING: Fai attenzione a modificare il file `unibo.yml`. +
 
 === Decoratori
 
-### Liste
+=== Liste
 
 La documentazione ufficiale per la struttura e lo stile:
 * [Liste Generiche](https://docs.asciidoctor.org/asciidoc/latest/lists/unordered/)
@@ -66,9 +66,9 @@ La documentazione ufficiale per la struttura e lo stile:
 
 Offriamo diversi stili per le liste:
 
-`•` con il tipo `[disc]`\
+`•` con il tipo `[circle]`\
 `■` con il tipo `[square]`\
-`❉` con il tipo `[circle]`
+`❉` con il tipo `[disc]`
 
 Esempio di lista generica:
 
@@ -100,7 +100,7 @@ verrano inseriti automaticamente.
 
 === Syntax Highlighting
 
-### Bibliografia
+=== Bibliografia
 
 La bibliografia si trova nel file `bibliografia.adoc`.
 Non è altro che una lista generica di elementi che cominciano
