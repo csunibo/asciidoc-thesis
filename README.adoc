@@ -31,7 +31,7 @@ Cliccando su *Actions* in alto, potrai abilitare l'automatizzazione del progetto
 - Per ogni *push* su una PR diretta verso `main`, verrà controllato
   che la tua tesi compili correttamente;
 - Se avrai impostato *Github Actions* come
-  `Settings` → `Pages` → `Build and depolyment` → `Source`, a ogni modifica su <kbd>main</kbd>
+  `Settings` → `Pages` → `Build and depolyment` → `Source`, a ogni modifica su `main`
   la tua tesi verrà pubblicata su `https://<nome-utente>.github.io/<nome-repository>/tesi.pdf`.
 
 Ricorda che se modifichi nome e percorso di `tesi.adoc` o `unibo.yml`, dovrai
