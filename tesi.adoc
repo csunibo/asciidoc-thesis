@@ -1,7 +1,8 @@
 
-= Titolo Tesi
+= Titolo Tesi: Un sottotitolo qualsiasi
 :doctype: book
 :media: prepress
+:pdf-theme: unibo.yml
 :sectnums:
 :source-highlighter: rouge
 :lang: it
