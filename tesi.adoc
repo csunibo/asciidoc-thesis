@@ -1,8 +1,8 @@
 
-= Titolo Tesi
-:pdf-theme: unibo.yml
+= Titolo Tesi: Un sottotitolo qualsiasi
 :doctype: book
 :media: prepress
+:pdf-theme: unibo.yml
 :sectnums:
 :lang: it
 :listing-caption: Tavola
